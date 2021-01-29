@@ -1,0 +1,126 @@
+body {
+	background-color: #4A5A73;
+}
+
+#main-container {
+	display: flex;
+	justify-content: center;
+	font-family: 'Press Start 2P', cursive;
+	background: -webkit-linear-gradient(#F53D35, #FEA926, #94CFBD);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#input-button {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	color: #F53D35;
+	border-color: #F53D35;
+	border-radius: 8px;
+	height: 30px;
+	width: 50px;
+}
+
+#input {
+	color: #F53D35;
+	border-color: #F53D35;
+	border-radius: 8px;
+	height: 25px;
+	width: 160px;
+}
+
+#game-buttons {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#feed {
+	color: #2A898F;
+	border-color: #2A898F;
+	margin-top: 20px;
+	display: none;
+}
+
+#lights {
+	color: #94CFBD;
+	border-color: #94CFBD;
+	margin-top: 20px;
+	display: none;
+}
+
+#play {
+	color: #FEA926;
+	border-color: #FEA926;
+	margin-top: 20px;
+	display: none;
+}
+
+#tamagotchi-status {
+	color: #FFFFFF;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#tamagotchi-status-container {
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+}
+
+#dead-status {
+	color: #FFFFFF;
+	font-family: 'Press Start 2P', cursive;
+}
+
+img {
+	width: 200px;
+	height: auto;
+	margin-right: 0%;
+	margin: 0 auto;
+	display: block;
+	padding: 25px;
+}
+
+#first-tamagotchi {
+	display: none;
+}
+
+#second-tamagotchi {
+	display: none;
+}
+
+#third-tamagotchi {
+	display: none;
+}
+
+#list-dead-age {
+	font-size: 12px;
+}
+
+#list-dead-hunger {
+	font-size: 12px;
+}
+
+#list-dead-sleepiness {
+	font-size: 12px;
+}
+
+#list-dead-boredom {
+	font-size: 12px;
+}
+
+#tamagotchi-notifications-container {
+	display: none;
+	margin: 0 auto;
+	background-color: rgb(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	height: 100px;
+	width: max-content;
+	overflow: scroll;
+	text-align: center;
+	border-radius: 8px;
+}
